@@ -1,0 +1,23 @@
+#container {
+    border: 5px solid black;
+    width: 480px;
+    height: 480px;
+    display: grid;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16,30px);
+    align-content: end;
+    margin: auto;
+}
+.content {
+    background-color: blue;
+    height: 26px;
+    width: 26px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content:hover {
+    background-color: pink;
+}
