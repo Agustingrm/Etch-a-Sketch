@@ -1,23 +1,38 @@
+body {
+    background-image: url('white-waves.png');
+}
+#playground {
+    width: 570px;
+    margin: auto;
+    display: flex;
+    margin: 30px auto;
+}
+
+#commands {
+    float: left;
+    width: 90px;
+    height: 490px;
+}
 #container {
     border: 5px solid black;
     width: 480px;
     height: 480px;
     display: grid;
-    grid-template-columns: repeat(16,30px);
-    grid-template-rows: repeat(16,30px);
-    align-content: end;
-    margin: auto;
+    float: right;
+    margin-left: -50px;
 }
 .content {
-    background-color: blue;
-    height: 26px;
-    width: 26px;
-    border: 2px solid gray;
+    background-color: white;
+    border: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content:hover {
-    background-color: pink;
+button {
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: -50px;
+    height: 30px;
+    width: 80px;
 }
